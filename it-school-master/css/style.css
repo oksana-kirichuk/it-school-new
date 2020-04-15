@@ -1166,10 +1166,9 @@ footer .footer-container .footer-technologies .tech-items span {
   padding: 30px 0;
 }
 .partners-info .partners-info-container .partners-text p {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
   color: #4f4f4f;
-  padding: 15px 0;
   letter-spacing: 0.02em;
 }
 .partners-info .partners-info-container .partners-image {
@@ -1189,13 +1188,9 @@ footer .footer-container .footer-technologies .tech-items span {
   justify-content: space-between;
   align-items: flex-start;
 }
-.internship .internship-container .intern-text {
-  margin: -70px 0;
-  width: 50%;
-}
 .internship .internship-container .intern-text .intern-text-items p {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 24px;
   color: #4f4f4f;
 }
 .internship .internship-container .intern-image {
@@ -1205,12 +1200,7 @@ footer .footer-container .footer-technologies .tech-items span {
   padding: 90px 0;
   background: #F2F2F2;
 }
-.graduate .graduate-container .graduates-people {
-  display: flex;
-  justify-content: space-around;
-}
 .graduate .graduate-container .graduates-people .graduates-person {
-  width: 20%;
   text-align: center;
 }
 .graduate .graduate-container .graduates-people .graduates-person img {
@@ -1234,7 +1224,7 @@ footer .footer-container .footer-technologies .tech-items span {
 }
 .graduate .graduate-container .graduates-people .graduates-person .person-location {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 21px;
   text-align: center;
   color: #2B57B1;
@@ -1249,7 +1239,7 @@ footer .footer-container .footer-technologies .tech-items span {
   align-items: end;
 }
 .about .about-container .about-section .about-section-left {
-  width: 50%;
+  padding-right: 50px;
 }
 .about .about-container .about-section .about-section-left.about-section-text .about-text p {
   font-size: 18px;
@@ -1275,7 +1265,7 @@ footer .footer-container .footer-technologies .tech-items span {
   padding-bottom: 20px;
 }
 .about .about-container .about-section .about-section-right {
-  width: 38%;
+  padding-left: 100px;
 }
 .about .about-container .about-section .about-section-right.about-section-text .about-text {
   padding-bottom: 30px;
