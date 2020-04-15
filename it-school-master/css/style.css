@@ -140,17 +140,26 @@ input[type="number"]::-webkit-inner-spin-button {
   font-size: 16px;
   margin-left: 5px;
 }
-.menu-fixed .menu-fixed-container .language select {
-  background: transparent;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  outline: none !important;
-  font-size: 16px;
+.menu-fixed .menu-fixed-container .language {
+  padding: 0 20px 0 25px;
 }
-.menu-fixed .menu-fixed-container .language select option {
-  background: #fff;
-  color: #000;
+.menu-fixed .menu-fixed-container .language .lang {
+  color: #fff;
+  font-size: 14px;
+  cursor: default;
+  text-transform: uppercase;
+}
+.menu-fixed .menu-fixed-container .language .lang.lang-ru {
+  background-color: #2B57B1;
+  padding: 5px 7px;
+  border-radius: 6px;
+}
+.menu-fixed .menu-fixed-container .language .lang.lang-ua {
+  padding: 5px 7px;
+}
+.menu-fixed .menu-fixed-container .language .lang.lang-ua:hover {
+  border-radius: 6px;
+  background: rgba(230, 229, 229, 0.4);
 }
 .menu-fixed .menu-fixed-container .numbers .number-block {
   display: flex;
@@ -300,6 +309,7 @@ input[type="number"]::-webkit-inner-spin-button {
   box-sizing: border-box;
   border-radius: 5px;
   cursor: pointer;
+  overflow: auto;
 }
 .courses-block-list .course-block-item .course-block-item-overlay {
   position: relative;
@@ -939,6 +949,10 @@ footer .footer-container .footer-technologies .tech-items span {
   font-size: 18px;
   line-height: 21px;
   color: #2B57B1;
+}
+.collaboration-container .collaboration-block .coll-form form .form-block .form-labels::before {
+  content: "* ";
+  color: #2B57 B;
 }
 .collaboration-container .collaboration-block .coll-form form .form-block .form-input {
   padding: 15px 20px;

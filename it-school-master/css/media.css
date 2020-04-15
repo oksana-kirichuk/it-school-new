@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+  .main-header .header-container .header-buttons .header-btn {
+    display: inline-block;
+  }
+  .main-header .header-container .header-buttons .header-btn.trans-btn {
+    border: 3px solid #FFFFFF;
+    background: transparent;
+    padding: 20px 74px;
+    box-sizing: border-box;
+  }
+  .main-header .header-container .header-buttons .header-btn.trans-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .main-header .header-container .slogan {
+    margin-top: 100px;
+  }
+}
