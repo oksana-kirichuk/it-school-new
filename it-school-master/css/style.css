@@ -119,6 +119,9 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 5px;
   transition: all 0.2s ease;
 }
+.menu-fixed .menu-fixed-container .menu li.mobile-icon {
+  display: none;
+}
 .menu-fixed .menu-fixed-container .menu li:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -159,7 +162,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .menu-fixed .menu-fixed-container .language .lang.lang-ua:hover {
   border-radius: 6px;
-  background: rgba(230, 229, 229, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .menu-fixed .menu-fixed-container .numbers .number-block {
   display: flex;
@@ -512,16 +515,16 @@ input[type="number"]::-webkit-inner-spin-button {
 .reviews .reviews-container .reviews-slider .reviews-slider-content:last-child {
   margin-right: 0;
 }
-.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-name {
+.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-namee {
   margin: 30px 0;
 }
-.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-name h4 {
+.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-namee h4 {
   font-size: 24px;
   line-height: 28px;
   color: #2B57B1;
   font-weight: bold;
 }
-.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-name p {
+.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-namee p {
   font-size: 20px;
   line-height: 30px;
   color: #BDBDBD;
@@ -603,13 +606,13 @@ footer .footer-container .footer-menu .footer-logo {
 footer .footer-container .footer-menu .footer-logo .footer-logo-image {
   margin-right: 20px;
 }
-footer .footer-container .footer-menu .footer-logo .footer-logo-name h5 {
+footer .footer-container .footer-menu .footer-logo .footer-logo-namee h5 {
   font-weight: bold;
   line-height: 24px;
   color: #fff;
   letter-spacing: 0.05em;
 }
-footer .footer-container .footer-menu .footer-logo .footer-logo-name p {
+footer .footer-container .footer-menu .footer-logo .footer-logo-namee p {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
@@ -1098,12 +1101,12 @@ footer .footer-container .footer-technologies .tech-items span {
 .programm-course-container {
   padding: 60px 0;
 }
-.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-name {
+.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-namee {
   display: flex;
   align-items: flex-end;
   padding-bottom: 28px;
 }
-.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-name a {
+.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-namee a {
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
@@ -1220,7 +1223,7 @@ footer .footer-container .footer-technologies .tech-items span {
 .graduate .graduate-container .graduates-people .graduates-person img {
   padding-bottom: 10px;
 }
-.graduate .graduate-container .graduates-people .graduates-person .person-name {
+.graduate .graduate-container .graduates-people .graduates-person .person-namee {
   font-weight: 900;
   font-size: 24px;
   line-height: 28px;
@@ -1533,4 +1536,7 @@ footer .footer-container .footer-technologies .tech-items span {
   display: inline-block;
   color: #fff;
   border: none;
+}
+.mobile-menu {
+  display: none;
 }

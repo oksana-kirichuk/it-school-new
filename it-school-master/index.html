@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta namee="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
@@ -32,7 +32,8 @@
                 <div class="menu-container">
                     <ul class="menu">
                         <li><a href="index.html">Главная</a></li>
-                        <li class="drop-parent"><a href="#" class="show-tabs">Курсы <span class="fas fa-chevron-down"></span></a>
+                        <li class="drop-parent"><a href="#" class="show-tabs">Курсы <span
+                                    class="fas fa-chevron-down"></span></a>
                             <div class="tabs-block">
                                 <div class="tabs-courses">
                                     <p class="tabs-title">Курсы</p>
@@ -44,7 +45,7 @@
                                         <li class="tabs-list-item" data-tab="5">Курсы для детей</li>
                                     </ul>
                                 </div>
-    
+
                                 <div class="tabs-container">
                                     <div class="tabs-inner active" data-tab="1">
                                         <ul class="tabs-inner-list">
@@ -173,11 +174,12 @@
                         <li><a href="about.html">О нас</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="contacts.html">Контакты</a></li>
+                        <li class="mobile-icon" data-mobile="open-menu"><a><span class="fas fa-bars"></span></a></li>
                     </ul>
                 </div>
                 <div class="language">
-                   <a href="" class="lang lang-ru">Рус</a>
-                   <a href="" class="lang lang-ua">Укр</a>
+                    <a href="" class="lang lang-ru">Рус</a>
+                    <a href="" class="lang lang-ua">Укр</a>
                 </div>
                 <div class="numbers">
                     <div class="number-block">
@@ -209,12 +211,73 @@
         </div>
     </div>
 
+    <!-- Mobile menu -->
+
+    <div class="mobile-menu-container">
+        <div class="mobile-overlay" data-menu="close"></div>
+        <div class="mobile-menu">
+            <div class="mobile-menu-logo">
+                <a class="close-menu" data-menu="close"><span class="fa fa-times"></span></a>
+                <div class="mobile-menu-image">
+                    <img src="img/logo-onpu.png" alt="">
+                </div>
+                <div class="mobile-logo-name">
+                    <p>Одесский</p>
+                    <p>Национальный</p>
+                    <p>Политехнический</p>
+                    <p>Университет</p>
+                </div>
+            </div>
+            <h6>Страницы</h6>
+            <ul class="mobile-menu-items">
+                <li><a href="index.html"><span class="fa fa-home"></span>Главная</a></li>
+                <li><a href="courses.html"><span class="fas fa-university"></span>Курсы</a></li>
+                <li><a href="partners.html"><span class="fas fa-handshake"></span>Сотрудничество</a></li>
+                <li><a href="about.html"><span class="fas fa-address-card"></span>О нас</a></li>
+                <li><a href="faq.html"><span class="far fa-question-circle"></span>FAQ</a></li>
+                <li><a href="contacts.html"><span class="fas fa-mobile-alt"></span>Контакты</a></li>
+            </ul>
+            <div class="language">
+                <a href="" class="lang lang-ru">Рус</a>
+                <a href="" class="lang lang-ua">Укр</a>
+             </div>
+             <div class="numbers">
+                <div class="number-block">
+                    <div class="number-icon">
+                        <img src="img/kyivstar.png" alt="">
+                    </div>
+                    <div class="number-item">
+                        <p>+ 38 (098) 765 43 21</p>
+                    </div>
+                </div>
+                <div class="number-block">
+                    <div class="number-icon">
+                        <img src="img/vodafone.png" alt="">
+                    </div>
+                    <div class="number-item">
+                        <p>+ 38 (098) 765 43 21</p>
+                    </div>
+                </div>
+                <div class="number-block">
+                    <div class="number-icon">
+                        <img src="img/phone.png" alt="">
+                    </div>
+                    <div class="number-item">
+                        <p>+ 38 (098) 765 43 21</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="main-header" id="main-page-img" style="background-image: url(img/bg.png);">
         <div class="wrapper">
             <div class="header-container">
                 <div class="header-social">
-                    <a href="https://www.instagram.com/itschoolcomua/" target="_blank"><span class="fab fa-instagram"></span></a>
-                    <a href="https://www.facebook.com/itschoolcomua/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                    <a href="https://www.instagram.com/itschoolcomua/" target="_blank"><span
+                            class="fab fa-instagram"></span></a>
+                    <a href="https://www.facebook.com/itschoolcomua/" target="_blank"><span
+                            class="fab fa-facebook-f"></span></a>
                 </div>
                 <div class="header-title">
                     <h1>Компьютерная школа</h1>
@@ -236,7 +299,7 @@
     </div>
 
     <div class="courses">
-        <a name="courses-items"></a>
+        <a namee="courses-items"></a>
         <div class="wrapper">
             <div class="courses-container">
                 <div class="courses-links">
@@ -256,7 +319,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="front-end.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/css-logo.png" alt="">
                                                 </div>
@@ -296,7 +360,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="vue.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/vue-logo.png" alt="">
                                                 </div>
@@ -336,7 +401,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="node.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/node-logo.png" alt="">
                                                 </div>
@@ -376,7 +442,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="uiux.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/figma-logo.png" alt="">
                                                 </div>
@@ -431,7 +498,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="front-end.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/css-logo.png" alt="">
                                                 </div>
@@ -471,7 +539,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="vue.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/vue-logo.png" alt="">
                                                 </div>
@@ -511,7 +580,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="node.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/node-logo.png" alt="">
                                                 </div>
@@ -565,7 +635,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="front-end.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/css-logo.png" alt="">
                                                 </div>
@@ -605,7 +676,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="vue.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/vue-logo.png" alt="">
                                                 </div>
@@ -659,7 +731,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="front-end.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/css-logo.png" alt="">
                                                 </div>
@@ -699,7 +772,8 @@
                                         <div class="course-block-item-overlay">
                                             <a href="vue.html" class="course-overlay-click"></a>
                                             <div class="block-bg">
-                                                <div class="course-block-bg" style="background-image: url(img/web.png);"></div>
+                                                <div class="course-block-bg"
+                                                    style="background-image: url(img/web.png);"></div>
                                                 <div class="course-logo">
                                                     <img src="img/vue-logo.png" alt="">
                                                 </div>
@@ -782,9 +856,12 @@
                                 <div class="adv-description">
                                     <h3>Актуальность</h3>
                                     <p>Мир IT-сферы меняется каждый день. Мы тоже не стоим на месте - наши курсы дают
-                                        возможность получить современные знания, основанные на последних веяниях "айтишной"
-                                        моды.Мир IT-сферы меняется каждый день. Мы тоже не стоим на месте - наши курсы дают
-                                        возможность получить современные знания, основанные на последних веяниях "айтишной"
+                                        возможность получить современные знания, основанные на последних веяниях
+                                        "айтишной"
+                                        моды.Мир IT-сферы меняется каждый день. Мы тоже не стоим на месте - наши курсы
+                                        дают
+                                        возможность получить современные знания, основанные на последних веяниях
+                                        "айтишной"
                                         моды.
                                     </p>
                                 </div>
@@ -797,7 +874,8 @@
                                 </div>
                                 <div class="adv-description">
                                     <h3>Первое занятие бесплатно</h3>
-                                    <p>На первом занятии Вы сможете узнать более подробно о выбранном курсе и понять, подходит
+                                    <p>На первом занятии Вы сможете узнать более подробно о выбранном курсе и понять,
+                                        подходит
                                         ли Вам стиль преподавания. Также на первом занятии с будущими слушателями
                                         согласовывается расписание.
                                     </p>
@@ -811,7 +889,8 @@
                                 </div>
                                 <div class="adv-description">
                                     <h3>Гибкий график</h3>
-                                    <p>Мы согласовываем время проведения занятий с каждым студентом. Это дает возможность
+                                    <p>Мы согласовываем время проведения занятий с каждым студентом. Это дает
+                                        возможность
                                         выбирать наиболее комфортное время обучения.
                                     </p>
                                 </div>
@@ -824,8 +903,10 @@
                                 </div>
                                 <div class="adv-description">
                                     <h3>Сертификат</h3>
-                                    <p>Сертификат "Компьютерной школы ОНПУ" - это документ международного образца на двух языках
-                                        от Одесского национального политехнического университета, подтверждающий Ваш уровень
+                                    <p>Сертификат "Компьютерной школы ОНПУ" - это документ международного образца на
+                                        двух языках
+                                        от Одесского национального политехнического университета, подтверждающий Ваш
+                                        уровень
                                         знаний по соответствующей специальности.
                                     </p>
                                 </div>
@@ -838,7 +919,8 @@
                                 </div>
                                 <div class="adv-description">
                                     <h3>Практикующие преподаватели</h3>
-                                    <p>Наши преподаватели входят в преподавательский состав Одесского "Политеха", а также
+                                    <p>Наши преподаватели входят в преподавательский состав Одесского "Политеха", а
+                                        также
                                         являются действующими разработчиками в IT-компаниях.
                                     </p>
                                 </div>
@@ -851,7 +933,8 @@
                                 </div>
                                 <div class="adv-description">
                                     <h3>Доступные цены</h3>
-                                    <p>Размещение курсов на базе государственного университета позволяет формировать доступные
+                                    <p>Размещение курсов на базе государственного университета позволяет формировать
+                                        доступные
                                         каждому цены на обучение.
                                     </p>
                                 </div>
@@ -864,7 +947,8 @@
                                 </div>
                                 <div class="adv-description">
                                     <h3>Гарантия возврата денег</h3>
-                                    <p>В случае, если у Вас возникнет уважительная причина, Вы сможете прекратить обучения на
+                                    <p>В случае, если у Вас возникнет уважительная причина, Вы сможете прекратить
+                                        обучения на
                                         наших курсах. В таком случае Вам вернут остаток от стоимости курса.
                                     </p>
                                 </div>
@@ -877,8 +961,10 @@
                                 </div>
                                 <div class="adv-description">
                                     <h3>У нас есть печеньки:)</h3>
-                                    <p>За 2-2,5 часа одного занятия можно многое выучить, однако обучение будет продуктивнее,
-                                        если мозг периодически "подкреплять". Именно поэтому в перерывах мы предлагаем нашим
+                                    <p>За 2-2,5 часа одного занятия можно многое выучить, однако обучение будет
+                                        продуктивнее,
+                                        если мозг периодически "подкреплять". Именно поэтому в перерывах мы предлагаем
+                                        нашим
                                         студентам чай с печеньками:)
                                     </p>
                                 </div>
@@ -904,14 +990,15 @@
                                     <div class="review-image">
                                         <img src="img/review-foto.png" alt="">
                                     </div>
-                                    <div class="review-name">
+                                    <div class="review-namee">
                                         <h4>Alexander Fomin</h4>
                                         <p>UX Expert</p>
                                     </div>
                                 </div>
                                 <div class="review-text">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor non ut proin mus
-                                        tristique ipsum urna. Tortor purus, odio mauris et cursus metus suscipit sed. Et orci.
+                                        tristique ipsum urna. Tortor purus, odio mauris et cursus metus suscipit sed. Et
+                                        orci.
                                     </p>
                                 </div>
                             </div>
@@ -922,14 +1009,15 @@
                                     <div class="review-image">
                                         <img src="img/review-foto.png" alt="">
                                     </div>
-                                    <div class="review-name">
+                                    <div class="review-namee">
                                         <h4>Alexander Fomin</h4>
                                         <p>UX Expert</p>
                                     </div>
                                 </div>
                                 <div class="review-text">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor non ut proin mus
-                                        tristique ipsum urna. Tortor purus, odio mauris et cursus metus suscipit sed. Et orci.
+                                        tristique ipsum urna. Tortor purus, odio mauris et cursus metus suscipit sed. Et
+                                        orci.
                                     </p>
                                 </div>
                             </div>
@@ -940,14 +1028,15 @@
                                     <div class="review-image">
                                         <img src="img/review-foto.png" alt="">
                                     </div>
-                                    <div class="review-name">
+                                    <div class="review-namee">
                                         <h4>Alexander Fomin</h4>
                                         <p>UX Expert</p>
                                     </div>
                                 </div>
                                 <div class="review-text">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor non ut proin mus
-                                        tristique ipsum urna. Tortor purus, odio mauris et cursus metus suscipit sed. Et orci.
+                                        tristique ipsum urna. Tortor purus, odio mauris et cursus metus suscipit sed. Et
+                                        orci.
                                     </p>
                                 </div>
                             </div>
@@ -990,7 +1079,7 @@
                                 <div class="footer-logo-image">
                                     <img src="img/logo-onpu.png" alt="">
                                 </div>
-                                <div class="footer-logo-name">
+                                <div class="footer-logo-namee">
                                     <h5>IT School ONPU</h5>
                                     <p>Школа программирования</p>
                                 </div>
@@ -1098,8 +1187,9 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/drop.js"></script>
+    <script src="js/mobile-menu.js"></script>
     <script src="js/main.js"></script>
 
 </body>
-</html>
 
+</html>
