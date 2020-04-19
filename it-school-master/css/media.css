@@ -1,34 +1,91 @@
-@media (max-width: 900px) {
-  .main-header .header-container .header-buttons .header-btn {
-    display: inline-block;
-  }
-  .main-header .header-container .header-buttons .header-btn.trans-btn {
-    border: 3px solid #FFFFFF;
-    background: transparent;
-    padding: 20px 74px;
-    box-sizing: border-box;
-  }
-  .main-header .header-container .header-buttons .header-btn.trans-btn:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-  .main-header .header-container .slogan {
-    margin-top: 100px;
+@media (max-width: 1200px) {
+  .wrapper {
+    margin: 0 15px;
   }
 }
-@media (max-width: 600px) {
-  .menu-fixed .menu-fixed-container .menu-container .menu {
+@media (max-width: 900px) {
+  .menu-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 45px 0;
+    transition: all 0.2s ease;
+  }
+  .menu-fixed.menu-scroll {
+    background-color: #1e3a86;
+    z-index: 1000;
+    padding: 10px 0;
+  }
+  .menu-fixed .menu-fixed-container {
+    justify-content: space-between;
+  }
+  .menu-fixed .menu-fixed-container .menu-logo .menu-logo-text p {
+    font-weight: normal;
+  }
+  .menu-fixed .menu-fixed-container .menu li {
     display: none;
   }
-  .menu-fixed .menu-fixed-container .menu-container .menu li {
+  .menu-fixed .menu-fixed-container .menu li.mobile-icon {
+    display: block;
+    background: transparent;
+  }
+  .menu-fixed .menu-fixed-container .menu li.mobile-icon a span {
+    color: #fff;
+    font-size: 28px;
+  }
+  .menu-fixed .menu-fixed-container .language {
     display: none;
   }
-  .menu-fixed .menu-fixed-container .menu-container .menu li.mobile-icon {
-    visibility: visible;
+  .menu-fixed .menu-fixed-container .numbers {
+    display: none;
+  }
+  .main-header .header-buttons {
+    margin: 0;
+  }
+  .main-header .header-buttons .header-btn {
+    padding: 35px 28px !important;
+    font-size: 24px;
+    width: 500px;
+    display: inline-block;
+  }
+  .main-header .header-buttons .header-btn.blue-btn {
+    margin-right: 0 !important;
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+  .courses .courses-container .courses-links .courses-prof {
+    font-size: 34px;
+  }
+  .courses .courses-container .courses-links .courses-kids {
+    display: block;
+    padding-top: 50px;
+  }
+  .honor-container .honor-content {
     display: block;
   }
-  .menu-fixed .menu-fixed-container .menu-container .menu li.mobile-icon a span {
-    color: #fff;
-    font-size: 30px;
+  .honor-container .honor-content .honor {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .honor-container .honor-content .honor p {
+    font-size: 18px;
+  }
+  .advantages.advantages-loyalty {
+    padding: 70px 0 80px 0;
+  }
+  .advantages .advantages-container .advantages-list .advantages-item .adv-description p {
+    font-size: 18px;
+  }
+  .reviews {
+    padding-bottom: 0;
+  }
+  .reviews .reviews-container .reviews-slider .reviews-slider-content {
+    margin-bottom: 50px;
+  }
+  .reviews .reviews-container .reviews-slider .reviews-slider-content .review-text p {
+    font-size: 16px !important;
   }
   .mobile-menu-container {
     z-index: 10;
@@ -37,7 +94,6 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.8);
   }
   .mobile-menu-container .mobile-overlay {
     display: block;
@@ -67,9 +123,11 @@
     transform: translateX(-100%);
     transition: all 0.5s ease;
     z-index: 3000;
+    opacity: 0;
   }
   .mobile-menu-container .mobile-menu.active {
     transform: translateX(0);
+    opacity: 1;
   }
   .mobile-menu-container .mobile-menu .mobile-menu-logo {
     display: flex;
@@ -110,46 +168,106 @@
     color: #fff;
     padding-right: 20px;
   }
-  .mobile-menu-container .mobile-menu .language {
-    padding: 0 20px 0 25px;
+}
+@media (max-width: 600px) {
+  .main-header {
+    padding-bottom: 100px;
   }
-  .mobile-menu-container .mobile-menu .language .lang {
-    color: #fff;
-    font-size: 14px;
-    cursor: default;
-    text-transform: uppercase;
+  .main-header .header-container .header-title {
+    margin-bottom: 60px;
   }
-  .mobile-menu-container .mobile-menu .language .lang.lang-ru {
-    background-color: #2B57B1;
-    padding: 5px 7px;
-    border-radius: 6px;
+  .main-header .header-container .header-title h1 {
+    font-size: 24px;
   }
-  .mobile-menu-container .mobile-menu .language .lang.lang-ua {
-    padding: 5px 7px;
+  .main-header .header-container .header-title p {
+    font-size: 18px;
   }
-  .mobile-menu-container .mobile-menu .language .lang.lang-ua:hover {
-    border-radius: 6px;
-    background-color: rgba(255, 255, 255, 0.3);
+  .main-header .header-container .header-buttons .header-btn {
+    width: 250px;
+    padding: 15px 20px !important;
   }
-  .mobile-menu-container .mobile-menu .numbers .number-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
+  .main-header .header-container .slogan svg {
+    width: 280px;
   }
-  .mobile-menu-container .mobile-menu .numbers .number-block:last-child {
-    margin-bottom: 0;
+  .courses .courses-container .courses-links {
+    padding: 30px 0;
   }
-  .mobile-menu-container .mobile-menu .numbers .number-block .number-icon {
-    margin-right: 5px;
+  .courses .courses-container .courses-links .courses-prof {
+    margin-right: 0;
+    font-size: 20px;
   }
-  .mobile-menu-container .mobile-menu .numbers .number-block .number-icon img {
-    width: 18px;
-    user-select: none;
+  .courses .courses-container .courses-links .courses-kids {
+    font-size: 20px;
+    padding-top: 40px;
   }
-  .mobile-menu-container .mobile-menu .numbers .number-block .number-item p {
-    font-weight: 500;
+  .courses .courses-container .courses-content .courses-block .courses-main-title {
+    margin-bottom: 30px;
+  }
+  .courses .courses-container .courses-content .courses-block .courses-main-title h3 {
+    font-size: 24px;
+  }
+  .courses-block-list .course-block-item .course-block-item-overlay .course-block-content .course-block-title {
+    margin-right: 10px;
+  }
+  .courses-block-list .course-block-item .course-block-item-overlay .course-block-content .course-block-title h4 {
+    font-size: 22px;
+  }
+  .basic-title-container .basic-h2 {
+    font-size: 24px;
+    margin: 40px 0 5px 0;
+  }
+  .advantages .advantages-container .advantages-list .advantages-item {
+    margin-right: 0;
+  }
+  .advantages .advantages-container .advantages-list .advantages-item .adv-image {
+    margin-right: 20px;
+  }
+  .advantages .advantages-container .advantages-list .advantages-item .adv-image span {
+    font-size: 28px;
+  }
+  .advantages .advantages-container .advantages-list .advantages-item .adv-description h3 {
+    font-size: 22px;
+  }
+  .advantages .advantages-container .advantages-list .advantages-item .adv-description p {
     font-size: 16px;
-    color: #fff;
+  }
+  .partners {
+    padding: 30px 0;
+  }
+  .partners .partners-container .partners-title h3 {
+    font-size: 24px;
+  }
+  .partners .partners-container .partners-list {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .partners .partners-container .partners-list .partner-item:first-child {
+    width: 100px;
+    height: 60px;
+  }
+  .partners .partners-container .partners-list .partner-item:nth-child(3) {
+    width: 80px;
+    height: 80px;
+  }
+  .partners .partners-container .partners-list .partner-item:nth-child(4) {
+    width: 100px;
+  }
+  .partners .partners-container .partners-list .partner-item:last-child {
+    background-image: url(../img/unesco-uni2.svg);
+    width: 120px;
+    height: 80px;
+    background-repeat: no-repeat;
+  }
+  footer {
+    background: #2B57B1;
+  }
+  footer .footer-container {
+    padding: 30px 0;
+  }
+  footer .footer-container .footer-menu {
+    margin-bottom: 50px;
+  }
+  footer .footer-container .footer-contacts {
+    margin-bottom: 50px;
   }
 }

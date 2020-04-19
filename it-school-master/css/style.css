@@ -143,9 +143,6 @@ input[type="number"]::-webkit-inner-spin-button {
   font-size: 16px;
   margin-left: 5px;
 }
-.menu-fixed .menu-fixed-container .language {
-  padding: 0 20px 0 25px;
-}
 .menu-fixed .menu-fixed-container .language .lang {
   color: #fff;
   font-size: 14px;
@@ -312,7 +309,6 @@ input[type="number"]::-webkit-inner-spin-button {
   box-sizing: border-box;
   border-radius: 5px;
   cursor: pointer;
-  overflow: auto;
 }
 .courses-block-list .course-block-item .course-block-item-overlay {
   position: relative;
@@ -515,16 +511,16 @@ input[type="number"]::-webkit-inner-spin-button {
 .reviews .reviews-container .reviews-slider .reviews-slider-content:last-child {
   margin-right: 0;
 }
-.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-namee {
+.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-name {
   margin: 30px 0;
 }
-.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-namee h4 {
+.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-name h4 {
   font-size: 24px;
   line-height: 28px;
   color: #2B57B1;
   font-weight: bold;
 }
-.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-namee p {
+.reviews .reviews-container .reviews-slider .reviews-slider-content .review-top .review-name p {
   font-size: 20px;
   line-height: 30px;
   color: #BDBDBD;
@@ -606,13 +602,13 @@ footer .footer-container .footer-menu .footer-logo {
 footer .footer-container .footer-menu .footer-logo .footer-logo-image {
   margin-right: 20px;
 }
-footer .footer-container .footer-menu .footer-logo .footer-logo-namee h5 {
+footer .footer-container .footer-menu .footer-logo .footer-logo-name h5 {
   font-weight: bold;
   line-height: 24px;
   color: #fff;
   letter-spacing: 0.05em;
 }
-footer .footer-container .footer-menu .footer-logo .footer-logo-namee p {
+footer .footer-container .footer-menu .footer-logo .footer-logo-name p {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
@@ -1101,12 +1097,12 @@ footer .footer-container .footer-technologies .tech-items span {
 .programm-course-container {
   padding: 60px 0;
 }
-.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-namee {
+.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-name {
   display: flex;
   align-items: flex-end;
   padding-bottom: 28px;
 }
-.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-namee a {
+.programm-course-container .programm-course .accordeon-container .accordeon-set .accordeon-set-name a {
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
@@ -1223,7 +1219,7 @@ footer .footer-container .footer-technologies .tech-items span {
 .graduate .graduate-container .graduates-people .graduates-person img {
   padding-bottom: 10px;
 }
-.graduate .graduate-container .graduates-people .graduates-person .person-namee {
+.graduate .graduate-container .graduates-people .graduates-person .person-name {
   font-weight: 900;
   font-size: 24px;
   line-height: 28px;

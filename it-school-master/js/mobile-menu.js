@@ -1,8 +1,29 @@
 var $selector = document.querySelector('.mobile-menu');
-var $overlay = document.querySelector('.overlay');
-var $menu = document.querySelector('.mobile-menu .menu');
+var $overlay = document.querySelector('.mobile-overlay');
+var $menu = document.querySelector('.mobile-menu');
 var $menuOpen = document.querySelectorAll('[data-menu-open]');
 var $menuClose = document.querySelectorAll('[data-menu-close]');
+var $dataMobile = document.querySelectorAll('[data-menu]');
+var $overlay = document.querySelector('.mobile-overlay');
+
+// open menu with click on the icon and close
+
+$dataMobile.forEach(function (element) {
+	element.addEventListener('click', function() {
+        
+        var $selectorMenu = this.getAttribute('data-menu');
+
+		if ($selectorMenu === 'data-menu-close') {
+            $overlay.classList.remove('active');
+            document.querySelector('.mobile-menu').classList.remove('active');
+		} else {
+			$overlay.classList.add('active');
+			document.querySelector('.mobile-menu').classList.add('active');
+		}
+	});
+}); 
+
+// Andrey code swipe 
 
 var x1 = 0;
 var x2 = 0;
@@ -76,3 +97,4 @@ $menuClose.forEach(function (el) {
         moveMenu(0)
     });
 });
+
