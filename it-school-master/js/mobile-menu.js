@@ -20,10 +20,17 @@ $dataMobile.forEach(function (element) {
 			$overlay.classList.add('active');
 			document.querySelector('.mobile-menu').classList.add('active');
 		}
-	});
+    });
 }); 
 
-// Andrey code swipe 
+if ($selector.classList.contains('active')) {
+    document.querySelector('.menu-fixed-container').style.z-index == '10';
+} else {
+    document.querySelector('.menu-fixed-container').style.z-index == '3000';
+}
+
+
+// Andrey   
 
 var x1 = 0;
 var x2 = 0;
