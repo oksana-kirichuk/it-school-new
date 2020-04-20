@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", ready);
     };
   };
 
-  	send.addEventListener('click', evt => validateFrom(evt));
+  	// send.addEventListener('click', evt => validateFrom(evt));
 })();
 
 
