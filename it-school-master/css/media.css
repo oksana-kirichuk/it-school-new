@@ -402,6 +402,9 @@
   .courses .courses-container .courses-content .courses-block .courses-main-title h3 {
     font-size: 24px;
   }
+  .courses-block-list .course-block-item {
+    margin-right: 0;
+  }
   .courses-block-list .course-block-item .course-block-item-overlay .course-block-content .course-block-title {
     margin-right: 10px;
   }
