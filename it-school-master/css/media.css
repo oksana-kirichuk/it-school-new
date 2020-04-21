@@ -354,14 +354,17 @@
     font-size: 22px;
   }
   .main-header .header-container .header-buttons .header-btn {
-    width: 250px;
+    width: auto;
     padding: 15px 20px !important;
+    font-size: 20px !important;
   }
   .main-header .header-container .header-buttons .header-btn.blue-btn {
+    width: auto;
     margin-bottom: 30px;
     margin-right: 0 !important;
   }
   .main-header .header-container .header-buttons .header-btn:last-child {
+    width: auto;
     padding: 24px 20px !important;
   }
   .main-header .header-container .slogan {
