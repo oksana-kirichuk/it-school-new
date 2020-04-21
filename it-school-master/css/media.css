@@ -2,6 +2,15 @@
   .wrapper {
     margin: 0 15px;
   }
+  .menu-fixed .menu-fixed-container .menu li {
+    padding: 5px;
+  }
+  .menu-fixed .menu-fixed-container .language {
+    display: none;
+  }
+  .menu-fixed .menu-fixed-container .numbers {
+    display: none;
+  }
   .about .about-container .about-section {
     flex-direction: column;
   }
