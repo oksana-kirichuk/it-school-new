@@ -5,6 +5,9 @@
   .menu-fixed .menu-fixed-container .menu li {
     padding: 5px;
   }
+  .menu-fixed .menu-fixed-container .menu li .tabs-block.active {
+    left: -200px !important;
+  }
   .menu-fixed .menu-fixed-container .language {
     display: none;
   }
